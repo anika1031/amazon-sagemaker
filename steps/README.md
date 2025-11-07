@@ -53,35 +53,35 @@ Screenshot 7: Training job details page showing accuracy chart.
 - Define hyperparameter ranges and select validation accuracy as metric to optimize.
 - Configure job limits (e.g., Max training jobs = 20, Max parallel = 3).
 - Click Create tuning job.
-Screenshot 8: Summary screen before creating.
-Screenshot 9: Job list showing “In progress” or “Completed”.
+<img width="1052" height="350" alt="image" src="https://github.com/user-attachments/assets/750b1bd9-4e84-486c-9562-a77ba4cbe82e" />
+
 
 9. Monitor and Analyze Results
 
 - Click the tuning job → view each trial’s hyperparameters and validation accuracy.
 - Note the Best training job and metrics.
-Screenshot 10: Tuning job details page with results.
+
 
 10. View Best Model
 
 - Click the best training job name → check Output section for S3 path of model artifacts.
-Screenshot 11: Best training job details page.
+
 
 11. Deploy the Best Model
 
 - Go to SageMaker → Models → Create model.
 - Choose the best model artifacts and configure endpoint.
 - Deploy model.
-Screenshot 12: Endpoint status showing “InService”.
+
 
 12. Record Results
 
 - Create a comparison table of Baseline vs Tuned model accuracy and metrics.
-Screenshot 13: Summary comparison table.
+
 
 13. Cleanup
 
 - Delete endpoints, configurations, and models.
-Screenshot 14: Endpoint list after deletion.
+
 
 
