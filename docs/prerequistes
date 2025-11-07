@@ -1,9 +1,0 @@
-- An AWS account with permissions for SageMaker, S3, and IAM.
-
-- AWS CLI configured (optional but useful).
-
-- SageMaker role with S3 read/write permissions.
-
-- Basic familiarity with Python and Jupyter notebooks.
-
-- Region: choose the nearest region (e.g., ap-south-1 for Mumbai).
