@@ -26,3 +26,5 @@ Learners will:
 
 9.Clean up all resources to avoid ongoing costs.
 
+To check the steps click here-->https://github.com/anika1031/amazon-sagemaker/tree/main/steps
+
